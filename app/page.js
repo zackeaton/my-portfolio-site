@@ -9,7 +9,7 @@ export default async function Home() {
 
       {/* Header */}
       <header className="border-b border-zinc-800 px-8 py-6 flex items-center justify-between">
-        <span className="text-sm tracking-widest uppercase text-zinc-400">My Portfolio</span>
+        <span className="text-sm tracking-widest uppercase text-zinc-400">My Portfolio (COMING SOON)</span>
         <a href="/blog" className="text-sm tracking-widest uppercase text-zinc-400 hover:text-white transition-colors">
           Blog
         </a>
