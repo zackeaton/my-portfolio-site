@@ -17,11 +17,11 @@ export default async function Home() {
 
       {/* Hero */}
       <section className="px-8 pt-24 pb-20 border-b border-zinc-800">
-        <p className="text-xs tracking-widest uppercase text-zinc-500 mb-6">Available for work</p>
+        <p className="text-xs tracking-widest uppercase text-zinc-500 mb-6">Available for collaboration</p>
         <h1 className="text-8xl font-black uppercase leading-none tracking-tighter mb-8">
           Your<br />
           <span className="text-transparent" style={{ WebkitTextStroke: '2px white' }}>
-            Name
+            ZACK EATON
           </span>
         </h1>
         <p className="text-zinc-400 text-xl max-w-lg leading-relaxed mb-10">
@@ -30,10 +30,10 @@ export default async function Home() {
         </p>
         {/* Social Links */}
         <div className="flex gap-6">
-          <a href="mailto:you@email.com" className="text-sm tracking-widest uppercase text-zinc-400 hover:text-yellow-400 transition-colors">
+          <a href="mailto:zeaton@brooklynbrewery.com" className="text-sm tracking-widest uppercase text-zinc-400 hover:text-yellow-400 transition-colors">
             Email →
           </a>
-          <a href="https://github.com" target="_blank" className="text-sm tracking-widest uppercase text-zinc-400 hover:text-yellow-400 transition-colors">
+          <a href="https://github.com/zackeaton" target="_blank" className="text-sm tracking-widest uppercase text-zinc-400 hover:text-yellow-400 transition-colors">
             GitHub →
           </a>
           <a href="https://linkedin.com" target="_blank" className="text-sm tracking-widest uppercase text-zinc-400 hover:text-yellow-400 transition-colors">
