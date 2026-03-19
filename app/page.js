@@ -19,9 +19,9 @@ export default async function Home() {
       <section className="px-8 pt-24 pb-20 border-b border-zinc-800">
         <p className="text-xs tracking-widest uppercase text-zinc-500 mb-6">Available for collaboration</p>
         <h1 className="text-8xl font-black uppercase leading-none tracking-tighter mb-8">
-          Your<br />
+          ZACK<br />
           <span className="text-transparent" style={{ WebkitTextStroke: '2px white' }}>
-            ZACK EATON
+            EATON
           </span>
         </h1>
         <p className="text-zinc-400 text-xl max-w-lg leading-relaxed mb-10">
