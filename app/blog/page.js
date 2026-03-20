@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import { getPosts } from '@/lib/sanity'
 
 export default async function Home() {
@@ -10,9 +11,9 @@ export default async function Home() {
       {/* Header */}
       <header className="border-b border-zinc-800 px-8 py-6 flex items-center justify-between">
         <span className="text-sm tracking-widest uppercase text-zinc-400">My Portfolio</span>
-        <a href="/blog" className="text-sm tracking-widest uppercase text-zinc-400 hover:text-white transition-colors">
+        <Link href="/blog" className="text-sm tracking-widest uppercase text-zinc-400 hover:text-white transition-colors">
           Blog
-        </a>
+        </Link>
       </header>
 
       {/* Hero */}
@@ -46,9 +47,9 @@ export default async function Home() {
       <section className="px-8 pt-16 pb-24">
         <div className="flex items-center justify-between mb-12">
           <p className="text-xs tracking-widest uppercase text-zinc-500">Latest Writing</p>
-          <a href="/blog" className="text-xs tracking-widest uppercase text-zinc-500 hover:text-yellow-400 transition-colors">
+          <Link href="/blog" className="text-xs tracking-widest uppercase text-zinc-500 hover:text-yellow-400 transition-colors">
             All Posts →
-          </a>
+          </Link>
         </div>
         <div className="divide-y divide-zinc-800">
           {featuredPosts.map((post, index) => (
